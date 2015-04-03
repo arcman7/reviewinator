@@ -47,7 +47,7 @@ keys = cohort.keys
     require "uri"
 
 
-38.times do |i|
+5.times do |i|
     username = cohort[keys[i]]
 
     parsed_url = "https://github.com/" + "#{username}" + "/phase-0-unit-2/blob/master/week-6/playlist/my_solution.rb"
